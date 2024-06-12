@@ -8,7 +8,7 @@ const App = () => {
         <Hero />
         <Features />
       </div>
-      <div className="pl-32">
+      <div className=" ">
         <Power />
       </div>
       <div className="container px-12 mx-auto">

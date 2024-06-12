@@ -1,14 +1,17 @@
 import { Feature } from "../constants/content";
+import images from "../constants/images";
 
 const Features = () => {
   return (
     <div>
+      <img src={images.dot} className="scale-75 absolute left-3" alt="star" />
       <div className="my-9 self-center items-center justify-center flex flex-col">
         <h1 className="title font-main uppercase text-4xl text-white self-center text-center mb-1">
           Features
         </h1>
         <div className="h-[1px] mx-5 my-1 bg-gradient-to-r from-[#EA6044] to-[#7F4B40] w-32" />
       </div>
+      <img src={images.star} className="scale-75 absolute right-3" alt="star" />
       {/* grid */}
       <div className="flex max-sm:flex-col gap-3 justify-between mx-9">
         {

@@ -13,7 +13,7 @@ const FAQ = () => {
       <div className="justify-center flex self-center">
         <div className="flex flex-col gap-4 max-w-40rem">
           {FAQs.map(({ question, answer }) => (
-            <Accordion title={question} content={answer} />
+            <Accordion key={answer} title={question} content={answer} />
           ))}
         </div>
       </div>

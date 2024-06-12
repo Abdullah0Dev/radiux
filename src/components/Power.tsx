@@ -6,6 +6,8 @@ const Power = () => {
     <div className="relative mt-24 max-sm:mx-2 ml-12 bg-[url(./src/assets/images/line_5.png)] ">
       <div className="container px-12 mx-auto">
         <div className=" flex overflow-hidden h-[70vh] bg-no-repeat justify-between">
+        <img src={images.star} className="scale-75 absolute left-3" alt="star" />
+      <img src={images.dot} className="scale-75 absolute left-[50%]" alt="star" />
           <div className="max-sm:w-full w-[50vw] pl-5">
             <h1 className="font-main max-sm:text-3xl text-5xl max-xl:text-3xl">
               Unlock the <span className="text-secondary">Power</span>
