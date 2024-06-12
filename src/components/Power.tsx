@@ -3,7 +3,7 @@ import images from "../constants/images";
 
 const Power = () => {
   return (
-    <div className="relative flex overflow-hidden h-[90vh] bg-[url(./src/assets/images/line_5.png)] bg-no-repeat justify-between mt-24 max-sm:mx-2 ml-12">
+    <div className="relative flex h-[90vh] justify-between mt-24 max-sm:mx-2 ml-12">
       <div className="max-sm:w-full w-[50vw] pl-5">
         <h1 className="font-main max-sm:text-3xl text-5xl max-xl:text-3xl">
           Unlock the <span className="text-secondary">Power</span>
@@ -20,7 +20,7 @@ const Power = () => {
       <div className="max-sm:hidden pb-12">
         {/* <img src={images.star} alt="star" /> */}
         <img
-          className="-mt-[9vw] -mr-32"
+          className="-mt-[7vw] -mr-32"
           src={images.iphone_1}
           alt="feature1"
         />

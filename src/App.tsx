@@ -4,13 +4,16 @@ const App = () => {
   return (
     <main className="bg-primary overflow-x-clip justify-center flex min-h-full text-white">
       <div className=" ">
-        <div className="container mx-32 ">
+        <div className="container px-32 ">
           <Navbar />
           <Hero />
           <Features />
         </div>
+        <div className="pl-32">
+
         <Power />
-        <div className="container mx-32 ">
+        </div>
+        <div className="container px-32 ">
           <Tech />
           <FAQ />
           <Footer />
