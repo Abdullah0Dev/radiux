@@ -3,7 +3,7 @@ import images from "../constants/images";
 
 const Power = () => {
   return (
-    <div className="relative flex overflow-hidden h-[80vh] bg-[url(./src/assets/images/line_5.png)] bg-no-repeat justify-between mt-24 max-sm:mx-2 ml-12">
+    <div className="relative flex overflow-hidden h-[90vh] bg-[url(./src/assets/images/line_5.png)] bg-no-repeat justify-between mt-24 max-sm:mx-2 ml-12">
       <div className="max-sm:w-full w-[50vw] pl-5">
         <h1 className="font-main max-sm:text-3xl text-5xl max-xl:text-3xl">
           Unlock the <span className="text-secondary">Power</span>
@@ -20,22 +20,18 @@ const Power = () => {
       <div className="max-sm:hidden pb-12">
         {/* <img src={images.star} alt="star" /> */}
         <img
-          className="-mt-[10vw] max-lg:-mr-32"
+          className="-mt-[10vw] -mr-32"
           src={images.iphone_1}
           alt="feature1"
         />
         {/* <img src={images.star} className="scale-75 -ml-12" alt="star" /> */}
         <img
-          className="-mt-[52vh] scale-125 xl:flex hidden -ml-[23vw]"
+          className="-mt-[12vh] scale-125  xl:flex hidden -ml-[23vw]"
           src={images.iphone_2}
           alt="feature1"
         />
       </div>
-      <img
-        src={images.gradient}
-        className="absolute mt-[32vh] hidden xl:flex w-[95vw] max-w-full max-lg:hidden"
-        alt="gradient"
-      />
+
     </div>
   );
 };
