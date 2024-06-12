@@ -11,7 +11,7 @@ import {
 const App = () => {
   return (
     <main className="bg-primary overflow-x-clip justify-center flex min-h-full text-white">
-      <div className="max-w-[1440px] ">
+      <div className="container mx-32 ">
         <Navbar />
         <Hero />
         <Features />
