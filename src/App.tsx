@@ -10,8 +10,8 @@ import {
 
 const App = () => {
   return (
-    <main className="bg-primary min-h-full text-white">
-      <div>
+    <main className="bg-primary overflow-x-clip justify-center flex min-h-full text-white">
+      <div className="max-w-[1440px] ">
         <Navbar />
         <Hero />
         <Features />

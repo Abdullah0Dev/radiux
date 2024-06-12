@@ -1,4 +1,4 @@
-import { HeroContent, Powers } from "../constants/content";
+import { Powers } from "../constants/content";
 import images from "../constants/images";
 
 const Power = () => {

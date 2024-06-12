@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavLinks, footer } from '../constants/content'
 
 const Footer = () => {

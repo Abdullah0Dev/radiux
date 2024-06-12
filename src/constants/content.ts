@@ -35,18 +35,23 @@ const HeroContent = {
   partner: [
     {
       img: images.partner_1,
+      link: "https://quran.com"
     },
     {
       img: images.partner_2,
+    link: "https://quran.com"
     },
     {
       img: images.partner_3,
+    link: "https://quran.com"
     },
     {
       img: images.partner_5,
+    link: "https://quran.com"
     },
     {
       img: images.partner_4,
+    link: "https://quran.com"
     },
   ],
 };
