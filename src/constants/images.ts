@@ -29,9 +29,11 @@ import wand from "../assets/images/wand.png";
 import x from "../assets/images/x.png";
 import down from "../assets/images/Down.png";
 import arrow from "../assets/images/arrow.png";
+import menu from "../assets/images/mobile_menu.png";
 
 export default {
   btn,
+  menu,
   arrow,
   case_feature,
   circle,

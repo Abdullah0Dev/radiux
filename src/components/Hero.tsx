@@ -4,7 +4,7 @@ import images from "../constants/images";
 const Hero = () => {
   return (
     <>
-      <div className="flex justify-between mt-24 max-sm:mx-2 ml-12 ">
+      <div className="flex justify-between mt-24 max-sm:mx-2  bg-no-repeat  bg-[url(./src/assets/images/circle.png)]  ml-12 ">
         <div className="  max-sm:w-full pl-5">
           <h1 className="font-main max-sm:text-3xl text-5xl max-xl:text-3xl ">
             Your <span className="text-secondary">Trading Strategy</span> with
@@ -18,10 +18,10 @@ const Hero = () => {
             <img className="w-4 h-4" src={images.arrow} alt="arrow" />
           </button>
         </div>
-        <div className="max-sm:hidden   bg-[url(./src/assets/images/circle.png)] w-[70%] bg-no-repeat pb-12 xl:pl-[30vw]  ">
+        <div className="max-sm:hidden w-[70%] pb-12 xl:pl-[30vw]  ">
           <img src={images.star} alt="star" />
           <img
-            className="max-md:scale-90 -ml-14  mt-[5vh] "
+            className="max-md:scale-90 scale-125 -ml-14  mt-[5vh] "
             src={images.float_1}
             alt="feature1"
           />
