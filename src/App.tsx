@@ -1,24 +1,20 @@
-import {
-  Navbar,
-  Hero,
-  Features,
-  Power,
-  Tech,
-  FAQ,
-  Footer,
-} from "./components";
+import { Navbar, Hero, Features, Power, Tech, FAQ, Footer } from "./components";
 
 const App = () => {
   return (
     <main className="bg-primary overflow-x-clip justify-center flex min-h-full text-white">
-      <div className="container mx-32 ">
-        <Navbar />
-        <Hero />
-        <Features />
+      <div className=" ">
+        <div className="container mx-32 ">
+          <Navbar />
+          <Hero />
+          <Features />
+        </div>
         <Power />
-        <Tech />
-        <FAQ />
-        <Footer />
+        <div className="container mx-32 ">
+          <Tech />
+          <FAQ />
+          <Footer />
+        </div>
       </div>
     </main>
   );

@@ -20,7 +20,7 @@ const Power = () => {
       <div className="max-sm:hidden pb-12">
         {/* <img src={images.star} alt="star" /> */}
         <img
-          className="-mt-[10vw] -mr-32"
+          className="-mt-[9vw] -mr-32"
           src={images.iphone_1}
           alt="feature1"
         />
